@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte / Pré-formatação:</h2>
+    <p>O comando <code>window.document.getElementById('teste')</code> é escrito em JS. </p>
+        <pre>
+            <code>
+    function adicionar(){
+        var num = Number(txtnum.value)
+        if(isnumero(num) && !inlista(num, valores)){ 
+            valores.push(num)
+            var item = document.createElement('option')
+            item.text = `Valor ${num} adicionado`
+            lisn.appendChild(item)
+            res.innerHTML = ''
+            txtnum.value = ''
+            txtnum.focus()
+        }else{
+            window.alert('Valor incorreto ou valor já adicionado.')
+        }
+    }
+            </code>
+        </pre>
+    <h2>Citações simples:</h2>
+    <p>Como diria o pai de um amigo: <q>apressa-te a viver bem e pensa que cada dia é, por si só, uma vida (Sêneca).</q></p>
+    <h2>Citações completas:</h2>
+    <blockquote>Nada, na minha opinião, é uma prova melhor de uma mente bem organizada do que a capacidade de um homem de parar exatamente onde está e passar algum tempo em sua própria companhia (Sêneca).</blockquote>.
+    <h2>Abreviações:</h2>
+    <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascadian Style Sheet">CSS</abbr>. Estou adorando!</p>
+</body>
+</html>
